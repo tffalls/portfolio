@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ToolbarNavComponent } from '../app/components/toolbar-nav/toolbar-nav.component';
+import { HomeComponent } from '../app/components/home/home.component'; 
 
 @Component({
   selector: 'app-root',

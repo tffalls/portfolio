@@ -1,0 +1,36 @@
+<div class="home-container">
+  <div class="home-content-left">
+    <mat-chip-list>
+      <mat-chip color="accent" selected>Hello, I'm</mat-chip>
+    </mat-chip-list>
+    <h1>Tarryn Falls</h1>
+    <p class="job-title">Software Engineer</p>
+
+    <span>
+        <i class="material-icons">email</i>
+        <p>tarrynfaith@gmail.com</p>
+    </span>
+    <span>
+        <i class="material-icons">phone</i>
+        <p>480-528-9431</p>
+    </span>
+    <span>
+        <i class="material-icons">location_on</i>
+        <p>Scottsdale, AZ</p>
+    </span>
+    <span (click)="goToGithub()" class="website-link">
+        <img class="icon-img" src="../../../assets/GitHub-Mark-32px.png">
+        <p>Checkout my GitHub</p>
+        <div class="link-icon"><i class="material-icons">launch</i></div>
+    </span>
+    <span (click)="goToLinkedIn()" class="website-link">
+        <i class="material-icons">language</i>
+        <p>Visit my LinkedIn</p>
+        <div class="link-icon"><i class="material-icons">launch</i></div>
+    </span>
+
+  </div>
+  <div class="home-content-right">
+        <img class="profile-pic" src="../../../assets/ProfilePic.png">
+  </div>
+</div>
